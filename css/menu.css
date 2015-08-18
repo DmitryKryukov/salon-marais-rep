@@ -1,0 +1,61 @@
+header {
+    height: 80px;
+    text-align: right;
+    margin-right: 50px;
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    -o-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
+}
+#menu-icon-nav{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/menu/menu-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+}
+nav {
+    opacity: 0;
+    position: absolute;
+    left: 85px;
+    top: 50%;
+    margin-top: -10px !important;
+    display: block;
+    -webkit-transition: opacity 0.25s ease-out;
+    -moz-transition: opacity 0.25s ease-out;
+    -o-transition: opacity 0.25s ease-out;
+    transition: opacity 0.25s ease-out;
+}
+nav a{
+    text-decoration: none;
+    color: #212121;
+    margin-right: 32px;
+}
+
+.contact-wrapper{
+    margin-right: 25px;
+}  
+.menu-text{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 30px;
+    letter-spacing: 0.04em;
+}
+.icon:before {
+    content: "";
+    margin: -2px 0 0 32px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.location:before {
+    width: 22px;
+    height: 26px;
+    background-image: url(../img/menu/location-icon.svg);
+}
+.phone:before {
+    width: 18px;
+    height: 24px;
+    background-image: url(../img/menu/phone-icon.svg);
+}

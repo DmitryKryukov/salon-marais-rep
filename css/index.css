@@ -1,0 +1,99 @@
+.slider-first-text{
+	width:697px;
+	margin: 54px 0 0 251px;
+	font-size: 48px;
+	text-transform: uppercase;
+        font-family: "Proxima Nova Semibold";
+        line-height: 48px;
+}
+.slider-button{
+    margin: 31px 0 0 251px;
+    width: 257px;
+    box-sizing: border-box;
+    background-color: #ff004e;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    padding: 18px 0 18px 4px;
+    font-family: "Futura PT Bold";
+    letter-spacing: 0.4em;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.space-top-37px{
+    padding-top: 37px;
+}
+.space-top-25px{
+    padding-top: 25px;
+}
+section .image {
+    position: relative;
+    z-index: 9997;
+    height: 719px;
+    width: 800px;
+    left: 50%;
+    margin-left: calc(-800px/2);
+    top: -421px;
+}
+section .first-image {
+    background-image:url(../img/index/about/photo1.png)
+}
+.viewport.prices {
+    z-index: 9998;
+    background-color: #ff004e;
+    position: absolute;
+    top: 979px;
+    height: 899px;
+}
+.viewport.masters {
+    position: absolute;
+    top: 1878px;
+    height: 899px;
+    background-color: #f2f2f2;
+    background-image:url(../img/index/masters/master_test.png);
+    background-size: cover;
+}
+.viewport.masters .master-profile {
+   box-sizing: content-box;
+   max-width: 1397px;
+   margin: 0 auto 0 auto;
+   padding-right: 697px;
+   display: table;
+}
+.viewport.masters .master-profile .name {
+    font-family:"Avenir Next LT Pro Demi";
+    font-size: 48px;
+    padding-bottom: 32px;
+}
+.viewport.masters .master-profile .ability {
+    font-family:"Avenir Next LT Pro Bold";
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+.viewport.masters .master-profile .description {
+    font-family:"Futura PT Book";
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    letter-spacing: 0.04em;
+}
+
+.viewport.contacts {
+    position: absolute;
+    top: 2777px;
+}
+.button{
+    width: 257px;
+    box-sizing: border-box;
+    background-color: #ff004e;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    padding: 18px 0 18px 4px;
+    font-family: "Futura PT Bold";
+    letter-spacing: 0.4em;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}

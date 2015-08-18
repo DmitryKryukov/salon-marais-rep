@@ -1,0 +1,42 @@
+@font-face {
+font-family: "Avenir Next LT Pro Bold";
+font-style: normal;
+font-weight: normal;
+src: url("../fonts/AvenirNextCyr-Heavy.woff") format('woff');
+}
+@font-face {
+font-family: "Avenir Next LT Pro Medium";
+font-style: normal;
+font-weight: normal;
+src: url("../fonts/AvenirNextCyr-Medium.woff") format('woff');
+}
+@font-face {
+font-family: "Avenir Next LT Pro Demi";
+font-style: normal;
+font-weight: normal;
+src: url("../fonts/AvenirNextCyr-Demi.woff") format('woff');
+}
+@font-face {
+font-family: "Futura PT Bold";
+font-style: normal;
+font-weight: normal;
+src: url("../fonts/FuturaPT-Bold.woff") format('woff');
+}
+@font-face {
+font-family: "Futura PT Book";
+font-style: normal;
+font-weight: normal;
+src: url("../fonts/FuturaPT-Book.woff") format('woff');
+}
+@font-face {
+font-family: "Proxima Nova Semibold";
+font-style: normal;
+font-weight: normal;
+src: url("../fonts/ProximaNova-Semibold.woff") format('woff');
+}
+@font-face {
+font-family: "Proxima Nova Black";
+font-style: normal;
+font-weight: normal;
+src: url("../fonts/ProximaNova-Black.woff") format('woff');
+}
